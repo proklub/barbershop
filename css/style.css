@@ -1,13 +1,30 @@
-*{
-	background: 
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.content{
+
+body {
+	background-image: url(../img/bg.jpg);
+}
+
+.content {
 	width: 960px;
 }
 
-.menu{
+.menu {
 	width: 2560px;
 	height: 72px;
-	color: #000000;
+	background-color: #000000;
+}
+
+ul {
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    margin: auto;
 }

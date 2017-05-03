@@ -18,13 +18,16 @@
 	width: 710px;
 }
 
-.main-navigation ul {
-    list-style: none;
-   }
+.main-navigation li {
+	display: inline-block;
+	list-style: none;
+}
 
 .breadcrumbs li {
+	display: inline-block;
     list-style: none;
-   }
+
+}
 
 .user-block {
 	float: right;
@@ -129,13 +132,30 @@
 }
 
 .composition {
+	width: 400px;
 	float: right;
 }
 
-.img-small a {
-	margin-right: 20px;
+.img-small a img {
+	margin-right: 15px;
 }
 
-.img-small a:last-child {
+.img-small a:last-child img {
 	margin-right: 0px;
+}
+
+.news li {
+	list-style: none;
+}
+
+fieldset {
+	border: none;
+}
+
+.description {
+	width: 220px;
+}
+
+.pagination li {
+	display: inline-block;
 }

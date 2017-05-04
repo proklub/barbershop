@@ -15,7 +15,7 @@
 
 .main-navigation {
 	float: left;
-	width: 710px;
+	width: 540px;
 }
 
 .main-navigation li {
@@ -26,6 +26,7 @@
 .breadcrumbs li {
 	display: inline-block;
     list-style: none;
+    margin-bottom: 60px;
 
 }
 
@@ -127,6 +128,11 @@
 }
 
 .description {
+	width: 220px;
+	float: right;
+}
+
+.description-big {
 	width: 400px;
 	float: right;
 }
@@ -152,10 +158,10 @@ fieldset {
 	border: none;
 }
 
-.description {
-	width: 220px;
-}
-
 .pagination li {
 	display: inline-block;
+}
+
+.logo {
+	float: left;
 }
